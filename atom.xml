@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Smile dev blog</title>
+  <icon>https://ydeshayes.github.io/icon.png</icon>
+  
+  <link href="https://ydeshayes.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://ydeshayes.github.io/"/>
+  <updated>2022-04-08T11:06:18.650Z</updated>
+  <id>https://ydeshayes.github.io/</id>
+  
+  <author>
+    <name>Yann Deshayes</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1- My first program</title>
+    <link href="https://ydeshayes.github.io/2022/04/03/my-first-program/"/>
+    <id>https://ydeshayes.github.io/2022/04/03/my-first-program/</id>
+    <published>2022-04-03T12:44:32.000Z</published>
+    <updated>2022-04-08T11:06:18.650Z</updated>
+    
+    
+    <summary type="html">&lt;img src=&quot;https://miro.medium.com/max/1400/1*drY2v31YwXXJ3ATnhq4rtA.jpeg&quot; alt=&quot;drawing&quot; width=&quot;200&quot;/&gt;
+
+&lt;p&gt;This is my first computer, kind of because I can’t really remember how it looks like, at least I know it was a Vtech.&lt;/p&gt;
+&lt;p&gt;When I was around 5, my parents bought me a kid computer, so that I can have fun and play some educational games. Those computers were very popular, you could learn math, orthograph, geography etc… The screen was crappy, the sound too.&lt;/p&gt;
+&lt;p&gt;So now you are wondering, the title is &lt;code&gt;My first program&lt;/code&gt;, you can’t write program with a kids computer right?&lt;/p&gt;
+&lt;p&gt;I still don’t really know why, but at the time</summary>
+    
+    
+    
+    <category term="Dev diary" scheme="https://ydeshayes.github.io/categories/Dev-diary/"/>
+    
+    
+    <category term="Story" scheme="https://ydeshayes.github.io/tags/Story/"/>
+    
+    <category term="BASIC" scheme="https://ydeshayes.github.io/tags/BASIC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://ydeshayes.github.io/2022/04/03/hello-world/"/>
+    <id>https://ydeshayes.github.io/2022/04/03/hello-world/</id>
+    <published>2022-04-03T09:02:51.692Z</published>
+    <updated>2022-04-08T11:10:35.463Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Welcome to my blog! This is my very first post.&lt;/p&gt;
+&lt;h2 id=&quot;Why-this-blog&quot;&gt;&lt;a href=&quot;#Why-this-blog&quot; class=&quot;headerlink&quot; title=&quot;Why this blog?&quot;&gt;&lt;/a&gt;Why this blog?&lt;/h2&gt;&lt;p&gt;In this blog I’ll publish some:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;h3 id=&quot;Technical-articles&quot;&gt;&lt;a href=&quot;#Technical-articles&quot; class=&quot;headerlink&quot; title=&quot;Technical articles&quot;&gt;&lt;/a&gt;Technical articles&lt;/h3&gt;&lt;p&gt;These posts will be about some frameworks, languages, debugging, algorithm, engineering etc…&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;h3 id=&quot;Dev-story-articles&quot;&gt;&lt;a href=&quot;#Dev-story-articles&quot; class=&quot;headerlink&quot; title=&quot;Dev story articles&quot;&gt;&lt;/a&gt;Dev story articles&lt;/h3&gt;&lt;p&gt;In these posts I’ll try to start from my very first projects and go forward to my current side projects&amp;#x2F;experiments. Talking about the&lt;br&gt;contexts and story behind that. This will describe all my journey towards becoming a software engineer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;h3 id=&quot;Projects-articles&quot;&gt;&lt;a href=&quot;#Projects-articles&quot; class=&quot;headerlink&quot; title=&quot;Projects articles&quot;&gt;&lt;/a&gt;Projects articles&lt;/h3&gt;&lt;p&gt;These posts will describe projects I did and I think are valuable technically. Describing the stack etc…&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Every article will have &lt;code&gt;Categories&lt;/code&gt; and &lt;code&gt;Tags&lt;/code&gt; so you can choose what you want to see.&lt;/p&gt;
+</summary>
+    
+    
+    
+    <category term="Announcements" scheme="https://ydeshayes.github.io/categories/Announcements/"/>
+    
+    
+    <category term="Changelog" scheme="https://ydeshayes.github.io/tags/Changelog/"/>
+    
+  </entry>
+  
+</feed>

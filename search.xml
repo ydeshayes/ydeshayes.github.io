@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>1- My first program</title>
+      <link href="/2022/04/03/my-first-program/"/>
+      <url>/2022/04/03/my-first-program/</url>
+      
+        <content type="html"><![CDATA[<img src="https://miro.medium.com/max/1400/1*drY2v31YwXXJ3ATnhq4rtA.jpeg" alt="drawing" width="200"/><p>This is my first computer, kind of because I can’t really remember how it looks like, at least I know it was a Vtech.</p><p>When I was around 5, my parents bought me a kid computer, so that I can have fun and play some educational games. Those computers were very popular, you could learn math, orthograph, geography etc… The screen was crappy, the sound too.</p><p>So now you are wondering, the title is <code>My first program</code>, you can’t write program with a kids computer right?</p><p>I still don’t really know why, but at the time<span id="more"></span>, some kid computers were capable of running a BASIC emulator. This is what my dad use to show me how to write my first program.<br>It is very blury because I was very young (and my dad don’t really remember either…), but I think this program was printing the alphabet in a loop.</p><p>When I discovered that, I remember that I was not playing any game anymore, I was just trying to program my alphabet loop again ang again because we did not have any floppy to save to (you needed to buy some proprietary stuff), so I was loosing everything everytime I shutdown the computer.</p><p>After some research, turns out this was a light version of BASIC that was on those computers, <code>PRE-BASIC 1.0</code>. If you are curious you can find some information <a href="https://en.wikipedia.org/wiki/VTech_PreComputer_1000">here</a>.</p><p>So I guess I was writing something like:</p><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">10 </span><span class="keyword">PRINT</span>(<span class="string">&quot;A&quot;</span>)</span><br><span class="line"><span class="symbol">20 </span><span class="keyword">PRINT</span>(<span class="string">&quot;B&quot;</span>)</span><br><span class="line"><span class="symbol">30 </span><span class="keyword">PRINT</span>(<span class="string">&quot;C&quot;</span>)</span><br><span class="line"><span class="symbol">40 </span><span class="keyword">PRINT</span>(<span class="string">&quot;D&quot;</span>)</span><br><span class="line"><span class="symbol">50 </span><span class="keyword">PRINT</span>(<span class="string">&quot;E&quot;</span>)</span><br><span class="line"><span class="symbol">60 </span><span class="keyword">PRINT</span>(<span class="string">&quot;F&quot;</span>)</span><br><span class="line"><span class="symbol">70 </span><span class="keyword">PRINT</span>(<span class="string">&quot;G&quot;</span>)</span><br><span class="line"><span class="symbol">80 </span><span class="keyword">PRINT</span>(<span class="string">&quot;H&quot;</span>)</span><br><span class="line"><span class="symbol">90 </span><span class="keyword">PRINT</span>(<span class="string">&quot;I&quot;</span>)</span><br><span class="line"><span class="symbol">100 </span><span class="keyword">PRINT</span>(<span class="string">&quot;J&quot;</span>)</span><br><span class="line"><span class="symbol">110 </span><span class="keyword">PRINT</span>(<span class="string">&quot;K&quot;</span>)</span><br><span class="line"><span class="symbol">120 </span><span class="keyword">PRINT</span>(<span class="string">&quot;L&quot;</span>)</span><br><span class="line"><span class="symbol">130 </span><span class="keyword">PRINT</span>(<span class="string">&quot;M&quot;</span>)</span><br><span class="line"><span class="symbol">140 </span><span class="keyword">PRINT</span>(<span class="string">&quot;N&quot;</span>)</span><br><span class="line"><span class="symbol">150 </span><span class="keyword">PRINT</span>(<span class="string">&quot;O&quot;</span>)</span><br><span class="line"><span class="symbol">160 </span><span class="keyword">PRINT</span>(<span class="string">&quot;P&quot;</span>)</span><br><span class="line"><span class="symbol">170 </span><span class="keyword">PRINT</span>(<span class="string">&quot;Q&quot;</span>)</span><br><span class="line"><span class="symbol">180 </span><span class="keyword">PRINT</span>(<span class="string">&quot;R&quot;</span>)</span><br><span class="line"><span class="symbol">190 </span><span class="keyword">PRINT</span>(<span class="string">&quot;S&quot;</span>)</span><br><span class="line"><span class="symbol">200 </span><span class="keyword">PRINT</span>(<span class="string">&quot;T&quot;</span>)</span><br><span class="line"><span class="symbol">210 </span><span class="keyword">PRINT</span>(<span class="string">&quot;U&quot;</span>)</span><br><span class="line"><span class="symbol">220 </span><span class="keyword">PRINT</span>(<span class="string">&quot;V&quot;</span>)</span><br><span class="line"><span class="symbol">230 </span><span class="keyword">PRINT</span>(<span class="string">&quot;W&quot;</span>)</span><br><span class="line"><span class="symbol">240 </span><span class="keyword">PRINT</span>(<span class="string">&quot;X&quot;</span>)</span><br><span class="line"><span class="symbol">250 </span><span class="keyword">PRINT</span>(<span class="string">&quot;Y&quot;</span>)</span><br><span class="line"><span class="symbol">260 </span><span class="keyword">PRINT</span>(<span class="string">&quot;Z&quot;</span>)</span><br><span class="line"><span class="symbol">260 </span><span class="keyword">GOTO</span> <span class="number">10</span></span><br></pre></td></tr></table></figure><p>And no, I did not write all of it this time :)</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">let</span> i=<span class="number">0</span>;i&lt;<span class="number">26</span>;i++) &#123; <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;(i+<span class="number">1</span>)*<span class="number">10</span>&#125;</span> PRINT(&quot;<span class="subst">$&#123;<span class="built_in">String</span>.fromCharCode(i+<span class="number">65</span>)&#125;</span>&quot;)`</span>)&#125;</span><br></pre></td></tr></table></figure><p>I read this amazing <a href="https://medium.com/@johnjones4/basic-inspired-a-generation-of-technologists-what-will-inspire-the-next-408d26e361e1">article</a> that is talking about the kids computers and BASIC.</p><p>I think that is where it all began.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Dev diary </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Story </tag>
+            
+            <tag> BASIC </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/04/03/hello-world/"/>
+      <url>/2022/04/03/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to my blog! This is my very first post.</p><h2 id="Why-this-blog"><a href="#Why-this-blog" class="headerlink" title="Why this blog?"></a>Why this blog?</h2><p>In this blog I’ll publish some:</p><ul><li><h3 id="Technical-articles"><a href="#Technical-articles" class="headerlink" title="Technical articles"></a>Technical articles</h3><p>These posts will be about some frameworks, languages, debugging, algorithm, engineering etc…</p></li><li><h3 id="Dev-story-articles"><a href="#Dev-story-articles" class="headerlink" title="Dev story articles"></a>Dev story articles</h3><p>In these posts I’ll try to start from my very first projects and go forward to my current side projects&#x2F;experiments. Talking about the<br>contexts and story behind that. This will describe all my journey towards becoming a software engineer.</p></li><li><h3 id="Projects-articles"><a href="#Projects-articles" class="headerlink" title="Projects articles"></a>Projects articles</h3><p>These posts will describe projects I did and I think are valuable technically. Describing the stack etc…</p></li></ul><p>Every article will have <code>Categories</code> and <code>Tags</code> so you can choose what you want to see.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Announcements </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Changelog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
