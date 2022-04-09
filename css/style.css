@@ -543,7 +543,7 @@ hr {
 .logo {
     display: flex;
     justify-content: space-between;
-    background: url("../400x400_day.png") no-repeat left top;
+    background: url("../pp.png") no-repeat left top;
     background-size: 5em
 }
 
