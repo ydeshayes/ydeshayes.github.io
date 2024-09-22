@@ -1,25 +1,29 @@
-<!DOCTYPE html><html><head>
+<!DOCTYPE HTML>
+<html>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="pragma" content="no-cache">
   <meta http-equiv="cache-control" content="no-cache">
   <meta http-equiv="expires" content="0">
   
-  <title>Tags | Smile dev blog</title>
+  <title>Tags | Yann dev blog</title>
   <meta name="author" content="Yann Deshayes">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Tags">
-  <meta property="og:site_name" content="Smile dev blog">
+  <meta property="og:title" content="Tags"/>
+  <meta property="og:site_name" content="Yann dev blog"/>
 
   
-    <meta property="og:image" content="">
+    <meta property="og:image" content=""/>
   
 
   
+    <link rel="alternative" href="/atom.xml" title="Yann dev blog" type="application/atom+xml">
   
-    <link href="/favicon.ico" rel="icon">
+  
+    <link href="/favicon.png" rel="icon">
   
   
   <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
@@ -27,6 +31,7 @@
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/prism.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
@@ -34,23 +39,11 @@
 
   <!-- analytics -->
   
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-BQSXNVKPBC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-BQSXNVKPBC');
-</script>
 
 
 
 
-
-
-<meta name="generator" content="Hexo 6.1.0"><link rel="alternate" href="/atom.xml" title="Smile dev blog" type="application/atom+xml">
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"></head>
+<meta name="generator" content="Hexo 6.3.0"></head>
 
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -61,39 +54,54 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-	  <a class="navbar-brand" href="/">Smile dev blog</a>
+	  <a class="navbar-brand" href="/">Yann dev blog</a>
       <div class="collapse navbar-collapse nav-menu">
 		<ul class="nav navbar-nav">
 		  
-		  <li>
-			<a href="/archives" title="All the articles.">
-			  <i class="fa fa-archive"></i>Archives
-			</a>
-		  </li>
+		    <li>
+			  <a href="/" title="Home">
+			    
+			      <i class="fa fa-home"></i>
+			    
+			    Home
+			  </a>
+		    </li>
 		  
-		  <li>
-			<a href="/categories" title="All the categories.">
-			  <i class="fa fa-folder"></i>Categories
-			</a>
-		  </li>
+		    <li>
+			  <a href="/archives" title="Archives">
+			    
+			      <i class="fa fa-archive"></i>
+			    
+			    Archives
+			  </a>
+		    </li>
 		  
-		  <li>
-			<a href="/tags" title="All the tags.">
-			  <i class="fa fa-tags"></i>Tags
-			</a>
-		  </li>
+		    <li>
+			  <a href="/categories" title="Categories">
+			    
+			      <i class="fa fa-folder"></i>
+			    
+			    Categories
+			  </a>
+		    </li>
 		  
-		  <li>
-			<a href="/about" title="About me.">
-			  <i class="fa fa-user"></i>About
-			</a>
-		  </li>
+		    <li>
+			  <a href="/tags" title="Tags">
+			    
+			      <i class="fa fa-tags"></i>
+			    
+			    Tags
+			  </a>
+		    </li>
 		  
-		  <li>
-			<a href="/atom.xml" title="Subscribe me.">
-			  <i class="fa fa-rss"></i>RSS
-			</a>
-		  </li>
+		    <li>
+			  <a href="/about" title="About">
+			    
+			      <i class="fa fa-user"></i>
+			    
+			    About
+			  </a>
+		    </li>
 		  
 		</ul>
       </div>
@@ -124,6 +132,10 @@
 		
 			<li><a href="#Changelog">Changelog<span>1</span></a></li>
 		
+			<li><a href="#Debugging">Debugging<span>1</span></a></li>
+		
+			<li><a href="#Programming">Programming<span>1</span></a></li>
+		
 			<li><a href="#Story">Story<span>1</span></a></li>
 		
 		</ul>
@@ -140,7 +152,15 @@
 			    
 		      
 			    
-   	   	   	       <li class="listing-item"><a href="/2022/04/03/my-first-program/">1- My first program</a></li>
+		      
+		  
+	   
+	      
+		      
+			    
+		      
+			    
+   	   	   	       <li class="listing-item"><a href="/2022/04/03/my-first-program/" >1- My first program</a></li>
 				
 		      
 		  
@@ -169,8 +189,78 @@
 	      
 		      
 			    
-   	   	   	       <li class="listing-item"><a href="/2022/04/03/hello-world/">Hello World</a></li>
+		      
+			    
+		      
+		  
+	   
+	      
+		      
+			    
+   	   	   	       <li class="listing-item"><a href="/2022/04/03/hello-world/" >Hello World</a></li>
 				
+		      
+		  
+	   
+	   
+	   </ul>
+	
+
+	<h4 class="archive-ul show" data-toggle="collapse" id="Debugging" data-target="#modal-Debugging"> Debugging <b class="caret"></b></h4>
+	   <ul id="modal-Debugging" class="collapse in">
+	   
+	      
+		      
+			    
+		      
+			    
+   	   	   	       <li class="listing-item"><a href="/2024/09/22/2-The-Art-of-Debugging-From-Mastermind-to-Reductio-ad-Absurdum/" >2- The Art of Debugging: From Mastermind to Reductio ad Absurdum</a></li>
+				
+		      
+		  
+	   
+	      
+		      
+			    
+		      
+			    
+		      
+		  
+	   
+	      
+		      
+			    
+		      
+		  
+	   
+	   
+	   </ul>
+	
+
+	<h4 class="archive-ul show" data-toggle="collapse" id="Programming" data-target="#modal-Programming"> Programming <b class="caret"></b></h4>
+	   <ul id="modal-Programming" class="collapse in">
+	   
+	      
+		      
+			    
+   	   	   	       <li class="listing-item"><a href="/2024/09/22/2-The-Art-of-Debugging-From-Mastermind-to-Reductio-ad-Absurdum/" >2- The Art of Debugging: From Mastermind to Reductio ad Absurdum</a></li>
+				
+		      
+			    
+		      
+		  
+	   
+	      
+		      
+			    
+		      
+			    
+		      
+		  
+	   
+	      
+		      
+			    
 		      
 		  
 	   
@@ -184,7 +274,15 @@
 	      
 		      
 			    
-   	   	   	       <li class="listing-item"><a href="/2022/04/03/my-first-program/">1- My first program</a></li>
+		      
+			    
+		      
+		  
+	   
+	      
+		      
+			    
+   	   	   	       <li class="listing-item"><a href="/2022/04/03/my-first-program/" >1- My first program</a></li>
 				
 		      
 			    
@@ -200,7 +298,7 @@
 	   
 	   </ul>
 	
-	
+	</ul>
 </div>
 
 
@@ -214,7 +312,7 @@
 			
   <div id="site_search">
    <div class="form-group">
-    <input type="text" id="local-search-input" name="q" results="0" placeholder="Search" class="st-search-input st-default-search-input form-control">
+    <input type="text" id="local-search-input" name="q" results="0" placeholder="Search" class="st-search-input st-default-search-input form-control"/>
    </div>  
   <div id="local-search-result"></div>
   </div>
@@ -230,6 +328,8 @@
 		
 			<li><a href="/categories/Dev-diary/">Dev diary<span>1</span></a></li>
 		
+			<li><a href="/categories/Engineering/">Engineering<span>1</span></a></li>
+		
 		</ul>
 	</div>
 
@@ -239,11 +339,15 @@
 		<h4>Tag Cloud</h4>
 		<ul class="tag_box inline list-unstyled">		
 		
-			<li><a href="/tags/Story/">Story<span>1</span></a></li>
-		
 			<li><a href="/tags/Changelog/">Changelog<span>1</span></a></li>
 		
+			<li><a href="/tags/Debugging/">Debugging<span>1</span></a></li>
+		
+			<li><a href="/tags/Programming/">Programming<span>1</span></a></li>
+		
 			<li><a href="/tags/BASIC/">BASIC<span>1</span></a></li>
+		
+			<li><a href="/tags/Story/">Story<span>1</span></a></li>
 		
 		 
 		</ul>
@@ -257,11 +361,15 @@
   <ul class="entry list-unstyled">
     
       <li>
-        <a href="/2022/04/03/my-first-program/"><i class="fa fa-file-o"></i>1- My first program</a>
+        <a href="/2024/09/22/2-The-Art-of-Debugging-From-Mastermind-to-Reductio-ad-Absurdum/" ><i class="fa fa-file-o"></i>2- The Art of Debugging: Fr...</a>
       </li>
     
       <li>
-        <a href="/2022/04/03/hello-world/"><i class="fa fa-file-o"></i>Hello World</a>
+        <a href="/2022/04/03/my-first-program/" ><i class="fa fa-file-o"></i>1- My first program</a>
+      </li>
+    
+      <li>
+        <a href="/2022/04/03/hello-world/" ><i class="fa fa-file-o"></i>Hello World</a>
       </li>
     
   </ul>
@@ -273,11 +381,9 @@
 	<h4>Links</h4>
 	<ul class="blogroll list-unstyled">
 	
-		<li><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/ydeshayes" title="My Linkin account." target="_blank" ]);"="">LinkedIn</a></li>
+		<li><i class="fa fa-github"></i><a href="https://github.com/ydeshayes" title="GitHub account" target="_blank"]);">GitHub</a></li>
 	
-		<li><i class="fa fa-github"></i><a href="https://github.com/ydeshayes" title="My github account" target="_blank" ]);"="">Github</a></li>
-	
-		<li><i class="fa fa-twitter"></i><a href="https://twitter.com/_Smi13" title="My twitter account" target="_blank" ]);"="">Twitter</a></li>
+		<li><i class="fa fa-linkedin"></i><a href="http://www.linkedin.com/in/ydeshayes" title="LinkedIn account" target="_blank"]);">LinkedIn</a></li>
 	
 	</ul>
 </div>
@@ -293,14 +399,9 @@
 	</div>
   </div>
   <div class="container-narrow">
-  <!-- source/themes/freemind.bithack/layout/_partial/google-analytics.ejs -->
-
-<!-- Google Adsense -->
-<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1749197275905874" crossorigin="anonymous"></script>
-
   <footer> <p>
   
-  © 2022 Yann Deshayes's Blog
+  &copy; 2024 Yann Deshayes's Blog
   
       powered by <a href="http://hexo.io/" target="_blank">Hexo</a>.Theme <a href="https://github.com/Ares-X/hexo-theme-freemind.bithack" target="_blank">freemind.bithack</a>  
 </p>
@@ -340,6 +441,5 @@
      searchFunc(path, 'local-search-input', 'local-search-result');
    </script>
 
-
-   
-</body><script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script><script>window.addEventListener("load", function(){window.cookieconsent.initialise({"palette":{"popup":{"background":"#000"},"button":{"background":"#f1d600"}}})});</script></html>
+</body>
+   </html>
